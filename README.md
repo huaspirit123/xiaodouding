@@ -1,13 +1,15 @@
 # 小豆丁 · xiaodouding
 
-**English** · [中文](README.zh-CN.md)
+**English** · [中文](README.zh-CN.md) · ▶ [**Try it live in your browser**](https://huaspirit123.github.io/xiaodouding/)
 
 **An LLM-powered pixel pet for the M5Stack Cardputer.** It chats with you (with persistent
 memory), talks back with voice, and lives an autonomous little life — roaming a holographic
 "pixel workstation" across 10 day/night scenes, showing the real time, real weather, and WiFi
 signal, and reacting to your messages with moods.
 
-![demo — Pixel Buddy across the 10 scenes](docs/demo.gif)
+[![demo — Pixel Buddy across the 10 scenes](docs/demo.gif)](https://huaspirit123.github.io/xiaodouding/)
+
+> ▶ **[Play with it live, in your browser →](https://huaspirit123.github.io/xiaodouding/)** — the pet roams, real clock & weather, no install. (Chat needs the local backend.)
 
 > The bundled character is **Pixel Buddy**, an original generic mascot. Bring your own art —
 > see [Sprites / bring your own character](#sprites--bring-your-own-character).

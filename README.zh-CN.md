@@ -1,12 +1,14 @@
 # 小豆丁 · xiaodouding
 
-[English](README.md) · **中文**
+[English](README.md) · **中文** · ▶ [**在浏览器里直接玩**](https://huaspirit123.github.io/xiaodouding/)
 
 **一只跑在 M5Stack Cardputer 上的、由大语言模型驱动的像素电子宠物。** 它能跟你聊天(带持久记忆)、
 用语音回你话,还会自己过日子——在一个全息「像素工作台」里溜达,横跨 10 个昼夜场景,屏幕上显示
 真实时间、真实天气和 WiFi 信号,还会根据你说的话做出不同情绪反应。
 
-![演示 — Pixel Buddy 在 10 个场景里](docs/demo.gif)
+[![演示 — Pixel Buddy 在 10 个场景里](docs/demo.gif)](https://huaspirit123.github.io/xiaodouding/)
+
+> ▶ **[在浏览器里直接玩 →](https://huaspirit123.github.io/xiaodouding/)** — 宠物自己漫游、真实时钟和天气,免安装。(聊天需要本地后端。)
 
 > 内置角色是 **Pixel Buddy**,一个原创的通用吉祥物。想换成你自己的角色?
 > 见 [精灵 / 自带角色](#精灵--自带角色)。
