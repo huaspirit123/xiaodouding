@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw
 
 FW, FH = 64, 72
 OUT = "sprites_src"
+SHEETS = "sim/sheets"  # horizontal sprite sheets for the browser sim
 CX = 32  # horizontal centre
 
 # palette (RGBA)
@@ -174,15 +175,21 @@ def frame(kind, i, n):
 def main():
     order = [a[0] for a in ACTIONS]
     meta = {"frame_w": FW, "frame_h": FH, "batches": {"all": order}, "actions": {}}
+    os.makedirs(SHEETS, exist_ok=True)
     for name, frames, fps, loop, kind in ACTIONS:
         meta["actions"][name] = {"frames": frames, "fps": fps, "loop": loop}
         fdir = os.path.join(OUT, "frames", name)
         os.makedirs(fdir, exist_ok=True)
+        sheet = Image.new("RGBA", (FW * frames, FH), (0, 0, 0, 0))  # for the browser sim
         for i in range(frames):
-            frame(kind, i, frames).save(os.path.join(fdir, f"{name}_{i}.png"))
+            im = frame(kind, i, frames)
+            im.save(os.path.join(fdir, f"{name}_{i}.png"))   # individual frame (for pack_sprites.py)
+            sheet.alpha_composite(im, (i * FW, 0))
+        sheet.save(os.path.join(SHEETS, f"{name}.png"))       # horizontal strip (for sim/)
     os.makedirs(OUT, exist_ok=True)
     json.dump(meta, open(os.path.join(OUT, "metadata.json"), "w"), ensure_ascii=False, indent=2)
-    print(f"generated {len(order)} actions -> {OUT}/  (run `python tools/pack_sprites.py` next)")
+    print(f"generated {len(order)} actions -> {OUT}/ (device frames) + {SHEETS}/ (sim sheets)")
+    print("next: python tools/pack_sprites.py")
 
 
 if __name__ == "__main__":

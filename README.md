@@ -1,11 +1,13 @@
 # 小豆丁 · xiaodouding
 
+**English** · [中文](README.zh-CN.md)
+
 **An LLM-powered pixel pet for the M5Stack Cardputer.** It chats with you (with persistent
 memory), talks back with voice, and lives an autonomous little life — roaming a holographic
 "pixel workstation" across 10 day/night scenes, showing the real time, real weather, and WiFi
 signal, and reacting to your messages with moods.
 
-![mascot](docs/mascot.png)
+![demo — Pixel Buddy across the 10 scenes](docs/demo.gif)
 
 > The bundled character is **Pixel Buddy**, an original generic mascot. Bring your own art —
 > see [Sprites / bring your own character](#sprites--bring-your-own-character).
