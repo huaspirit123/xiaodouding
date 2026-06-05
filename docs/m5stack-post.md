@@ -11,6 +11,9 @@ Hi everyone! I turned my **M5Stack Cardputer** into a little AI pixel pet and op
 
 ![pixel buddy](https://raw.githubusercontent.com/huaspirit123/xiaodouding/main/docs/mascot.png)
 
+▶ **Try it right now in your browser (no hardware needed):** https://huaspirit123.github.io/xiaodouding/
+— the pet roams the 10 scenes with a real clock & live weather; clone the repo for full chat on a real Cardputer.
+
 **What it does**
 - 💬 **Chats with memory** — an LLM brain (DeepSeek by default, any OpenAI-compatible
   endpoint works) running on your PC; it remembers facts about you across sessions.
@@ -32,7 +35,7 @@ Hi everyone! I turned my **M5Stack Cardputer** into a little AI pixel pet and op
 The bundled character is an original generic mascot ("Pixel Buddy") — and it's a
 **bring-your-own-character** design: drop in your own 64×72 sprite sheets and it's your pet.
 
-**Code + build instructions (Apache-2.0):**
-👉 https://github.com/huaspirit123/xiaodouding
+**Live demo (browser):** 👉 https://huaspirit123.github.io/xiaodouding/
+**Code + build instructions (Apache-2.0):** 👉 https://github.com/huaspirit123/xiaodouding
 
 Feedback, scenes, and sprite art PRs very welcome. Have fun! 🤖
