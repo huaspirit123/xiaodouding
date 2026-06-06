@@ -143,6 +143,12 @@ launcher 的 SD 菜单里安装。宠物里按 `Fn+Q` 返回 launcher。这种�
 - **流式语音识别** 走 WebSocket(paraformer-realtime),所以一分钟的话也不用整段缓存。
 - `sim/` 浏览器孪生渲染的是同一套场景——在那里调视觉(快),再移植到 `scenes.h`。
 
+## 💬 社区
+
+- **M5Stack 官方论坛**讨论帖:https://community.m5stack.com/topic/8246/
+- 提问 & 点子:[GitHub Discussions](https://github.com/huaspirit123/xiaodouding/discussions) 或 [issues](https://github.com/huaspirit123/xiaodouding/issues)
+- 用它做了自己的宠物?欢迎晒出来——PR 和「这是我的版本」都超欢迎。
+
 ## 🤝 参与贡献
 
 欢迎 PR——见 [CONTRIBUTING.md](CONTRIBUTING.md)。适合上手的:更多场景、更精致的吉祥物美术、

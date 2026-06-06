@@ -155,6 +155,12 @@ live on the SD card in this mode (the firmware auto-migrates them on first boot)
 - The `sim/` browser twin renders the same scenes — tune visuals there (fast), then port to
   `scenes.h`.
 
+## 💬 Community
+
+- **M5Stack forum** show & tell: https://community.m5stack.com/topic/8246/
+- Questions & ideas: [GitHub Discussions](https://github.com/huaspirit123/xiaodouding/discussions) or [issues](https://github.com/huaspirit123/xiaodouding/issues)
+- Built your own pet with it? Share it — PRs and "here's mine" posts very welcome.
+
 ## 🤝 Contributing
 
 PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Good first issues: more scenes, nicer
